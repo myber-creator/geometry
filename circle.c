@@ -1,5 +1,5 @@
+#include <math.h>
 #include <stdio.h>
-
 struct figure {
     char name[10];
     int param[3];
