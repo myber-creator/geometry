@@ -1,2 +1,2 @@
-figure:	circle.c
-	gcc -o app_figure circle.c
+app_figure: circle.c
+	gcc -Wall -o app_figure circle.c
