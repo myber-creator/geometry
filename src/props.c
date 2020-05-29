@@ -1,8 +1,6 @@
 #include "print_scan.h"
-#include <stdio.h>
-#include <math.h>#include <stdio.h>
-#include <math.h>#include <stdio.h>
 #include <math.h>
+#include <stdio.h>
 
 float perim(figure circle[10], int i)
 {
