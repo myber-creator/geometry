@@ -2,7 +2,7 @@
 #define H_PRINT_SCAN
 #include <stdio.h>
 
-typedef struct{
+typedef struct {
     char name[10];
     int param[3];
 } figure;

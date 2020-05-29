@@ -1,23 +1,25 @@
-#include <stdio.h>
-#include <math.h>
 #include "print_scan.h"
+#include <stdio.h>
+#include <math.h>#include <stdio.h>
+#include <math.h>#include <stdio.h>
+#include <math.h>
 
 float perim(figure circle[10], int i)
 {
     float perim;
-    perim = 2*M_PI*circle[i].param[2];
+    perim = 2 * M_PI * circle[i].param[2];
     return perim;
 }
 
 float squad(figure circle[10], int i)
 {
     float squad;
-    squad = M_PI * pow(circle[i].param[2],2);
+    squad = M_PI * pow(circle[i].param[2], 2);
     return squad;
 }
 
 int crossing(figure circle[10], int i, int m)
-{  
+{
     if ((sqrt(pow(circle[i].param[0] - circle[m].param[0], 2)
               + pow(circle[i].param[1] - circle[m].param[1], 2)))
         <= (circle[i].param[2] + circle[m].param[2])) {
