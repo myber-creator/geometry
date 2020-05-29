@@ -1,5 +1,6 @@
 #ifndef H_PRINT_SCAN
 #define H_PRINT_SCAN
+#include <stdio.h>
 
 typedef struct{
     char name[10];

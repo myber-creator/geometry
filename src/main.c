@@ -2,9 +2,9 @@
 #include <stdio.h>
 #include "print_scan.h"
 
-int main(int argc, const char *argv[])
+int main(int argc, char** argv)
 {   
-    if(argc > 2){
+    if(argc > 1){
         FILE* file;
         int m;
         figure circle[10];
@@ -14,6 +14,6 @@ int main(int argc, const char *argv[])
         print_figure(circle, m);
         return 0;
     }else{
-        printf("The input does not match: <./ name_file input_file>")
+        printf("The input does not match: <./name_file input_file>\n");
     }
 }

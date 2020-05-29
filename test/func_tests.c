@@ -29,7 +29,7 @@ CTEST(perim, test_1)
 CTEST(squad, test_1)
 {
     create_circle(circle, 1, 1, 2, 4);
-    double expect = 61 * M_PI;
+    double expect = 16 * M_PI;
     double result = squad(circle, 1);
     ASSERT_DBL_NEAR_TOL(expect, result, 1);
 }
